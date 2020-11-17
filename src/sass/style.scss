@@ -1,0 +1,70 @@
+#home{
+    height:100vh;
+    width:100vw;
+}
+#editor{
+    height:40vh;
+    #editor-window{
+        height:100%;
+        width: 100%;
+        resize: none;
+    }
+}
+#display{
+    height:40vh;
+    margin-top: 4vh;
+    overflow-y: scroll;
+}
+#preview{
+    height:84vh;
+    overflow-y: scroll;
+}
+.left-column{
+    margin-top: 8vh;
+    margin-left:8vw;
+}
+.right-column{
+    margin-top: 8vh;
+    margin-right: 8vw;
+    margin-left: 4vw;
+}
+.window{
+    background:#eee;
+    border-radius: 20px;
+    width:40vw;
+    padding:20px;
+    display: flex;
+    flex-flow: column;
+}
+.header{
+    flex: 0 1 auto;
+    text-transform: uppercase;
+}
+.content{
+    flex:1 1 auto;
+}
+.title{
+    margin-bottom: 0;
+}
+hr{
+    margin-top:0;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
